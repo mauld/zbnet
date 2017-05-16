@@ -1,2 +1,0 @@
-pyserial>=3.3
-XBee>=2.2.5

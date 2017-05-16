@@ -1,8 +1,0 @@
-setup.py
-zbnet/__init__.py
-zbnet/zbnet.py
-zbnet.egg-info/PKG-INFO
-zbnet.egg-info/SOURCES.txt
-zbnet.egg-info/dependency_links.txt
-zbnet.egg-info/requires.txt
-zbnet.egg-info/top_level.txt
