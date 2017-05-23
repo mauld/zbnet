@@ -77,6 +77,10 @@ class SensorNet(object):
             unit.pins[pin]['value'] = value
 
     def send_pin_command(self, unit_name, command, pin, value=None):
+        try:
+            unit_name = unit_name.encode('ascii')
+        except AttributeError:
+            pass
         packet = self.command_to_bytes[command]
         packet += (pin).to_bytes(1, byteorder='little')
         if value is not None:
